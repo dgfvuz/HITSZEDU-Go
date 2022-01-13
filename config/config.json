@@ -1,0 +1,40 @@
+{
+    "server":{
+        "port": 8081
+
+    },
+    "database":{
+        "type":"mysql",
+        "username":"root",
+        "password":"zhu20040329",
+        "address":"127.0.0.1",
+        "port": 3306,
+        "dbname":"hitszedu",
+        "charset":"utf8mb4",
+        "logmode":false
+    },
+    "entity":{
+        "user":{
+            "avatar":"https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+            "motto":"规格严格，功夫到家~"
+            
+        }
+
+    },
+    "jwt":{
+        "key":"guangxiyouxue",
+        "issuer":"hitszedu"
+
+    },
+    "wx":{
+        "publicAppID":"wx314c8c70e46d78fd",
+        "publicAppSecret":"1234567890",
+        "studentAppID":"wx88e737ba0088a87d",
+        "studentAppSecret":"1234567890",
+        "adminAppID":"wx44740577d080cc76",
+        "adminAppSecret":"1234567890",
+        "code2Session":"https://api.weixin.qq.com/sns/jscode2session",
+        "getPhoneNumber":"https://api.weixin.qq.com/wxa/business/getuserphonenumber",
+        "getAccessToken":"https://api.weixin.qq.com/cgi-bin/token"
+    }
+}
